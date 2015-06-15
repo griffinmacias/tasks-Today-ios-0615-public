@@ -24,6 +24,7 @@
 		D8208CE91952F77900A0FA03 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8208CE81952F77900A0FA03 /* EventKit.framework */; };
 		D892175E1952FFC600FF6E4A /* viewSpecsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D892175D1952FFC600FF6E4A /* viewSpecsSpec.m */; };
 		D892175F1953042800FF6E4A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8208CE81952F77900A0FA03 /* EventKit.framework */; };
+		DBC295EB1B2F4CDB00A515F1 /* FISDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC295EA1B2F4CDB00A515F1 /* FISDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		D8208CDC1952F75100A0FA03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8208CE81952F77900A0FA03 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		D892175D1952FFC600FF6E4A /* viewSpecsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewSpecsSpec.m; sourceTree = "<group>"; };
+		DBC295E91B2F4CDB00A515F1 /* FISDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISDetailViewController.h; sourceTree = "<group>"; };
+		DBC295EA1B2F4CDB00A515F1 /* FISDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDetailViewController.m; sourceTree = "<group>"; };
 		EE8E35BCBB51893A45B71EC4 /* Pods-tasksTodayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tasksTodayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tasksTodayTests/Pods-tasksTodayTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +142,8 @@
 				D8208CC51952F75100A0FA03 /* Main.storyboard */,
 				D8208CC81952F75100A0FA03 /* FISViewController.h */,
 				D8208CC91952F75100A0FA03 /* FISViewController.m */,
+				DBC295E91B2F4CDB00A515F1 /* FISDetailViewController.h */,
+				DBC295EA1B2F4CDB00A515F1 /* FISDetailViewController.m */,
 				D8208CCB1952F75100A0FA03 /* Images.xcassets */,
 				D8208CBA1952F75100A0FA03 /* Supporting Files */,
 			);
@@ -307,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC295EB1B2F4CDB00A515F1 /* FISDetailViewController.m in Sources */,
 				D8208CCA1952F75100A0FA03 /* FISViewController.m in Sources */,
 				D8208CC01952F75100A0FA03 /* main.m in Sources */,
 				D8208CC41952F75100A0FA03 /* FISAppDelegate.m in Sources */,
